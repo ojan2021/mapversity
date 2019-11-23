@@ -2,6 +2,7 @@ package com.example.mapversitydemo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
@@ -11,13 +12,14 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.Toast;
 
 public class WelcomeScreen extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
-    @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome_screen);
@@ -28,20 +30,20 @@ public class WelcomeScreen extends AppCompatActivity implements AdapterView.OnIt
         String[] arraySpinner = new String[] {
                 "1", "ADA University", "Oxford University", "Public Administration Academy"
         };
-        Spinner s = (Spinner) findViewById(R.id.UniversityChooser);
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-                android.R.layout.simple_spinner_item, arraySpinner);
+        Spinner spinner = findViewById(R.id.UniversityChooser);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.universities,
+                android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        s.setAdapter(adapter);
+        spinner.setAdapter(adapter);
+        spinner.setOnItemSelectedListener(this);
 
 
     }
 
-    @Override
+      @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         String uniName = parent.getItemAtPosition(position).toString();
         Toast.makeText(parent.getContext(),uniName,Toast.LENGTH_SHORT).show();
-
     }
 
     @Override
