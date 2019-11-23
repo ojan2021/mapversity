@@ -3,6 +3,7 @@ package com.example.mapversitydemo;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.app.ActivityOptions;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
@@ -44,6 +45,10 @@ public class WelcomeScreen extends AppCompatActivity implements AdapterView.OnIt
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         String uniName = parent.getItemAtPosition(position).toString();
         Toast.makeText(parent.getContext(),uniName,Toast.LENGTH_SHORT).show();
+        if(uniName.equals("Oxford University")) {
+            Intent navScreen = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(navScreen, ActivityOptions.makeSceneTransitionAnimation(this).toBundle());
+        }
     }
 
     @Override
