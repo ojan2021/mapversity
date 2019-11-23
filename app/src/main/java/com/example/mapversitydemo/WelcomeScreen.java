@@ -34,15 +34,13 @@ public class WelcomeScreen extends AppCompatActivity implements AdapterView.OnIt
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         s.setAdapter(adapter);
 
+
     }
 
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         String uniName = parent.getItemAtPosition(position).toString();
-        if(uniName.equals("1"))
-        {
-            Log.i("Hello","World");
-        }
+        Toast.makeText(parent.getContext(),uniName,Toast.LENGTH_SHORT).show();
 
     }
 

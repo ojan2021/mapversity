@@ -5,10 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
 public class MainActivity extends AppCompatActivity {
+
+    public static int isWelcome =0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,8 +22,11 @@ public class MainActivity extends AppCompatActivity {
             w.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
         }
 
-        Intent welcome = new Intent(getApplicationContext(),WelcomeScreen.class);
-        startActivity(welcome);
+        if(isWelcome!=1) {
+            isWelcome=1;
+            Intent welcome = new Intent(getApplicationContext(),WelcomeScreen.class);
+            startActivity(welcome);
+        }
 
     }
 }
