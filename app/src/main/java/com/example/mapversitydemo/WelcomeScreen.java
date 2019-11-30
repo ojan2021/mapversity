@@ -2,18 +2,11 @@ package com.example.mapversitydemo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.app.ActivityOptions;
-import android.content.Context;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.Toast;
@@ -45,7 +38,7 @@ public class WelcomeScreen extends AppCompatActivity implements AdapterView.OnIt
         String uniName = parent.getItemAtPosition(position).toString();
         Toast.makeText(parent.getContext(),uniName,Toast.LENGTH_SHORT).show();
         if(uniName.equals("Oxford University")) {
-            Intent navScreen = new Intent(getApplicationContext(), NavScreen.class);
+            Intent navScreen = new Intent(getApplicationContext(), NavigationManager.class);
             startActivity(navScreen, ActivityOptions.makeSceneTransitionAnimation(this).toBundle());
         }
     }

@@ -216,6 +216,10 @@
         "source": "C:\\Users\\orhan\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_events.xml.flat",
+        "source": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\src\\main\\res\\layout\\fragment_events.xml"
+    },
+    {
         "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_googleg_standard_color_18.png.flat",
         "source": "C:\\Users\\orhan\\.gradle\\caches\\transforms-2\\files-2.1\\291563c6708268cf4683b088770f2b39\\play-services-base-17.0.0\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
     },
@@ -466,6 +470,10 @@
     {
         "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_edit_text_material.xml.flat",
         "source": "C:\\Users\\orhan\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_navigation.xml.flat",
+        "source": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\src\\main\\res\\layout\\fragment_navigation.xml"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\interpolator-v21_mtrl_fast_out_linear_in.xml.flat",
@@ -1828,12 +1836,20 @@
         "source": "C:\\Users\\orhan\\.gradle\\caches\\transforms-2\\files-2.1\\cb634fe4b4d1fdfcd5255e485d30a0c1\\material-1.0.0\\res\\drawable\\navigation_empty_icon.xml"
     },
     {
+        "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_study.xml.flat",
+        "source": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\src\\main\\res\\layout\\fragment_study.xml"
+    },
+    {
         "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\orhan\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
         "source": "C:\\Users\\orhan\\.gradle\\caches\\transforms-2\\files-2.1\\c527b78844be871c44103f6f45a963fb\\core-1.1.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_navigation_manager.xml.flat",
+        "source": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\src\\main\\res\\layout\\activity_navigation_manager.xml"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
@@ -2010,10 +2026,6 @@
     {
         "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_bottom_navigation_item.xml.flat",
         "source": "C:\\Users\\orhan\\.gradle\\caches\\transforms-2\\files-2.1\\cb634fe4b4d1fdfcd5255e485d30a0c1\\material-1.0.0\\res\\layout\\design_bottom_navigation_item.xml"
-    },
-    {
-        "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_nav_screen.xml.flat",
-        "source": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\src\\main\\res\\layout\\activity_nav_screen.xml"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",

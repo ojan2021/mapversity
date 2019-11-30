@@ -1200,6 +1200,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id bottomNavigationView
 id buttonPanel
 id center
 id center_horizontal
@@ -1243,6 +1244,7 @@ id fill_vertical
 id filled
 id fixed
 id forever
+id fragment_container
 id ghost_view
 id gone
 id group_divider
@@ -1442,7 +1444,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
-layout activity_nav_screen
+layout activity_navigation_manager
 layout activity_welcome_screen
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -1459,6 +1461,9 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout fragment_events
+layout fragment_navigation
+layout fragment_study
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action

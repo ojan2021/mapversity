@@ -27,7 +27,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.mapversitydemo.NavScreen" />
+        <activity android:name="com.example.mapversitydemo.NavigationManager" />
         <activity android:name="com.example.mapversitydemo.WelcomeScreen" />
         <activity android:name="com.example.mapversitydemo.MainActivity" >
             <intent-filter>

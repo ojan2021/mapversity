@@ -43,9 +43,9 @@
 27        android:testOnly="true"
 28        android:theme="@style/AppTheme" >
 28-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:11:9-40
-29        <activity android:name="com.example.mapversitydemo.NavScreen" />
-29-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:12:9-56
-29-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:12:19-44
+29        <activity android:name="com.example.mapversitydemo.NavigationManager" />
+29-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:12:9-64
+29-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:12:19-52
 30        <activity android:name="com.example.mapversitydemo.WelcomeScreen" />
 30-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:13:9-51
 30-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:13:19-48
