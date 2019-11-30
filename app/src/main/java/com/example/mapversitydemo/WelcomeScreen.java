@@ -38,7 +38,6 @@ public class WelcomeScreen extends AppCompatActivity implements AdapterView.OnIt
         spinner.setAdapter(adapter);
         spinner.setOnItemSelectedListener(this);
 
-
     }
 
       @Override
