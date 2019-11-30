@@ -11,7 +11,7 @@
 9-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:5:5-20:19
+11-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:5:5-21:19
 12        android:allowBackup="true"
 12-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -25,24 +25,26 @@
 17-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
 18-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:10:9-35
-19        android:testOnly="true"
-20        android:theme="@style/AppTheme" >
-20-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:11:9-40
+19        android:theme="@style/AppTheme" >
+19-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:11:9-40
+20        <activity android:name="com.example.mapversitydemo.NavScreen" />
+20-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:12:9-56
+20-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:12:19-44
 21        <activity android:name="com.example.mapversitydemo.WelcomeScreen" />
-21-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:12:9-51
-21-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:12:19-48
+21-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:13:9-51
+21-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:13:19-48
 22        <activity android:name="com.example.mapversitydemo.MainActivity" >
-22-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:13:9-19:20
-22-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:13:19-47
+22-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:14:9-20:20
+22-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:14:19-47
 23            <intent-filter>
-23-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:14:13-18:29
+23-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:15:13-19:29
 24                <action android:name="android.intent.action.MAIN" />
-24-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:15:17-69
-24-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:15:25-66
+24-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:16:17-69
+24-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:16:25-66
 25
 26                <category android:name="android.intent.category.LAUNCHER" />
-26-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:17:17-77
-26-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:17:27-74
+26-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:18:17-77
+26-->E:\AndroidStudioProjects\MapversityDemo\app\src\main\AndroidManifest.xml:18:27-74
 27            </intent-filter>
 28        </activity>
 29    </application>
