@@ -20,17 +20,17 @@ import android.widget.Toast;
 
 public class WelcomeScreen extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        hideNavigationBar();
+    }
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome_screen);
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-            Window w = getWindow(); // in Activity's onCreate() for instance
-            w.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
-        }
-        String[] arraySpinner = new String[] {
-                "1", "ADA University", "Oxford University", "Public Administration Academy"
-        };
+        hideNavigationBar();
+
         Spinner spinner = findViewById(R.id.UniversityChooser);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.universities,
                 android.R.layout.simple_spinner_item);
@@ -46,7 +46,7 @@ public class WelcomeScreen extends AppCompatActivity implements AdapterView.OnIt
         String uniName = parent.getItemAtPosition(position).toString();
         Toast.makeText(parent.getContext(),uniName,Toast.LENGTH_SHORT).show();
         if(uniName.equals("Oxford University")) {
-            Intent navScreen = new Intent(getApplicationContext(), MainActivity.class);
+            Intent navScreen = new Intent(getApplicationContext(), NavScreen.class);
             startActivity(navScreen, ActivityOptions.makeSceneTransitionAnimation(this).toBundle());
         }
     }
@@ -54,5 +54,14 @@ public class WelcomeScreen extends AppCompatActivity implements AdapterView.OnIt
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
 
+    }
+
+    private void hideNavigationBar() {
+        this.getWindow().getDecorView().setSystemUiVisibility(
+                View.SYSTEM_UI_FLAG_FULLSCREEN |
+                        View.SYSTEM_UI_FLAG_HIDE_NAVIGATION |
+                        View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY |
+                        View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN |
+                        View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
     }
 }
