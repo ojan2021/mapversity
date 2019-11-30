@@ -284,6 +284,10 @@
         "source": "C:\\Users\\orhan\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
+        "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_navigation.xml.flat",
+        "source": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\src\\main\\res\\menu\\bottom_navigation.xml"
+    },
+    {
         "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "C:\\Users\\orhan\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
@@ -374,6 +378,10 @@
     {
         "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_bar.xml.flat",
         "source": "C:\\Users\\orhan\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_study_24dp.xml.flat",
+        "source": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\src\\main\\res\\drawable\\study_24dp.xml"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
@@ -1924,6 +1932,10 @@
         "source": "C:\\Users\\orhan\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_0.xml"
     },
     {
+        "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_event_note_black_24dp.xml.flat",
+        "source": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\src\\main\\res\\drawable\\ic_event_note_black_24dp.xml"
+    },
+    {
         "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\orhan\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
@@ -1954,6 +1966,10 @@
     {
         "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_item_background_holo_dark.xml.flat",
         "source": "C:\\Users\\orhan\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_navigation_black_24dp.xml.flat",
+        "source": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\src\\main\\res\\drawable\\ic_navigation_black_24dp.xml"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
