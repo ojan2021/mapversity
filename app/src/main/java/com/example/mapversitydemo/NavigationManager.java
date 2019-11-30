@@ -3,6 +3,7 @@ package com.example.mapversitydemo;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -46,7 +47,7 @@ public class NavigationManager extends AppCompatActivity {
                             selectedFragment = new StudyScreen();
                             break;
                     }
-                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                    getSupportFragmentManager().beginTransaction().setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN).replace(R.id.fragment_container,
                             selectedFragment).commit();
 
                     return true;
