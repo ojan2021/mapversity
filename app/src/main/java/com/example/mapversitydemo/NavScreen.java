@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
+import android.widget.Button;
 import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
@@ -35,14 +36,49 @@ public class NavScreen extends Fragment {
         PhotoView photoView = view.findViewById(R.id.mapA201);
         photoView.setImageResource(R.drawable.a201lala);
 
-        AutoCompleteTextView srcPointView = view.findViewById(R.id.SourcePoint);
+        final AutoCompleteTextView srcPointView = view.findViewById(R.id.SourcePointText);
         ArrayAdapter<String> srcAdapter = new ArrayAdapter<String>(this.getContext(),android.R.layout.simple_list_item_1,ROOMS);
         srcPointView.setAdapter(srcAdapter);
 
-        AutoCompleteTextView destPointView = view.findViewById(R.id.DestinationPoint);
+        final AutoCompleteTextView destPointView = view.findViewById(R.id.DestinationPointText);
         ArrayAdapter<String> destAdapter = new ArrayAdapter<String>(this.getContext(),android.R.layout.simple_list_item_1,ROOMS);
         destPointView.setAdapter(destAdapter);
 
 
+        final ImageView pin1 = view.findViewById(R.id.sourcePin);
+        pin1.setVisibility(View.INVISIBLE);
+
+        final ImageView pin2 = view.findViewById(R.id.destinationPin);
+        pin2.setVisibility(View.INVISIBLE);
+
+        final ImageView path0 = view.findViewById(R.id.path0);
+        path0.setVisibility(View.INVISIBLE);
+
+        final ImageView path1 = view.findViewById(R.id.path1);
+        path1.setVisibility(View.INVISIBLE);
+
+        final ImageView path2 = view.findViewById(R.id.path2);
+        path2.setVisibility(View.INVISIBLE);
+
+
+        final Button startNavButton = view.findViewById(R.id.startNavigationButton);
+        startNavButton.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                destPointView.setVisibility(View.INVISIBLE);
+                srcPointView.setVisibility(View.INVISIBLE);
+                pin1.setVisibility(View.VISIBLE);
+                pin2.setVisibility(View.VISIBLE);
+                path0.setVisibility(View.VISIBLE);
+                path1.setVisibility(View.VISIBLE);
+                path2.setVisibility(View.VISIBLE);
+                startNavButton.setVisibility(View.INVISIBLE);
+            }
+        });
+
     }
+
+
 }

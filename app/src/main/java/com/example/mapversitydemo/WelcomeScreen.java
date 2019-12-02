@@ -36,8 +36,7 @@ public class WelcomeScreen extends AppCompatActivity implements AdapterView.OnIt
       @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         String uniName = parent.getItemAtPosition(position).toString();
-        Toast.makeText(parent.getContext(),uniName,Toast.LENGTH_SHORT).show();
-        if(uniName.equals("Oxford University")) {
+        if(uniName.equals("ADA University")) {
             Intent navScreen = new Intent(getApplicationContext(), NavigationManager.class);
             startActivity(navScreen, ActivityOptions.makeSceneTransitionAnimation(this).toBundle());
         }

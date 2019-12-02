@@ -1076,6 +1076,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable button_shaper
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1110,6 +1111,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_navigation_black_24dp
+drawable location_pin
 drawable logo
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
@@ -1126,6 +1128,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable path
+drawable path3
 drawable study_24dp
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1135,7 +1139,7 @@ font helvetica_neu_bold
 font helvetica_neue_light
 id ALT
 id CTRL
-id DestinationPoint
+id DestinationPointText
 id FUNCTION
 id LMSProgressImage
 id LMSProgressText
@@ -1143,7 +1147,7 @@ id LMSProgressText2
 id META
 id SHIFT
 id SYM
-id SourcePoint
+id SourcePointText
 id UniversityChooser
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -1235,6 +1239,7 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id destinationPin
 id dialog_button
 id dimensions
 id direct
@@ -1266,6 +1271,7 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id imageView3
 id imageView7
 id info
 id invisible
@@ -1304,6 +1310,9 @@ id parallax
 id parent
 id parentPanel
 id parent_matrix
+id path0
+id path1
+id path2
 id percent
 id pin
 id progress_circular
@@ -1343,6 +1352,7 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id sourcePin
 id spacer
 id split_action_bar
 id spread
@@ -1352,6 +1362,7 @@ id src_in
 id src_over
 id standard
 id start
+id startNavigationButton
 id stretch
 id study
 id submenuarrow

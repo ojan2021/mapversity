@@ -1,8 +1,11 @@
 <resources>
     <string name="app_name">MapversityDemo</string>
     <string-array name="universities">
-        <item>ADA University</item>
-        <item>Khazar University</item>
         <item>Oxford University</item>
+        <item>Stanford University</item>
+        <item>ADA University</item>
+        <item>Baku Higher Oil School</item>
+        <item>Baku Engineering University</item>
+
     </string-array>
 </resources>
