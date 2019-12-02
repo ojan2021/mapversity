@@ -21,4 +21,30 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.498" />
+
+    <AutoCompleteTextView
+        android:id="@+id/SourcePoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_light_background"
+        android:completionThreshold="1"
+        android:fontFamily="@font/helvetica_neue_light"
+        android:hint="Current Location"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.086"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/DestinationPoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_light_background"
+        android:completionThreshold="1"
+        android:fontFamily="@font/helvetica_neue_light"
+        android:hint="Destination"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.143"
+        tools:layout_editor_absoluteX="0dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

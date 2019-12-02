@@ -1132,8 +1132,10 @@ drawable tooltip_frame_light
 drawable wall
 font bonvenocf_light
 font helvetica_neu_bold
+font helvetica_neue_light
 id ALT
 id CTRL
+id DestinationPoint
 id FUNCTION
 id LMSProgressImage
 id LMSProgressText
@@ -1141,6 +1143,7 @@ id LMSProgressText2
 id META
 id SHIFT
 id SYM
+id SourcePoint
 id UniversityChooser
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
