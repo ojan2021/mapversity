@@ -1130,9 +1130,11 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable path
 drawable path3
+drawable raise_your_hand_to_ask
 drawable study_24dp
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable university
 drawable wall
 drawable white_button_shaper
 font bonvenocf_light
@@ -1283,6 +1285,7 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id imageView2
 id imageView3
 id imageView7
 id info
@@ -1331,6 +1334,7 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
+id raiseYourHand
 id right
 id right_icon
 id right_side

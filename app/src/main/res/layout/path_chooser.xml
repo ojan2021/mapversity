@@ -9,7 +9,7 @@
 
     <AutoCompleteTextView
         android:id="@+id/SourcePointText"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/cardview_light_background"
         android:completionThreshold="1"
@@ -17,14 +17,14 @@
         android:hint="Current Location"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.167"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.347" />
+        app:layout_constraintVertical_bias="0.357" />
 
     <AutoCompleteTextView
         android:id="@+id/DestinationPointText"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/cardview_light_background"
         android:completionThreshold="1"
@@ -32,9 +32,33 @@
         android:hint="Destination"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.145"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.906" />
+        app:layout_constraintVertical_bias="0.842" />
+
+    <ImageView
+        android:id="@+id/raiseYourHand"
+        android:layout_width="25dp"
+        android:layout_height="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.038"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.346"
+        app:srcCompat="@drawable/raise_your_hand_to_ask" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="25dp"
+        android:layout_height="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.038"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.833"
+        app:srcCompat="@drawable/university" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
