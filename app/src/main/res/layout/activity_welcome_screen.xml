@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
     tools:context=".WelcomeScreen">
 
     <TextView
@@ -35,6 +36,7 @@
         android:id="@+id/UniversityChooser"
         android:layout_width="245dp"
         android:layout_height="25dp"
+        android:background="@color/cardview_light_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/mapversityText"
         app:layout_constraintStart_toStartOf="@+id/mapversityText"

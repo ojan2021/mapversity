@@ -5,19 +5,68 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_red_light"
+    android:background="@color/cardview_light_background"
     >
 
+    <include
+        android:id="@+id/eventToolbar"
+        layout="@layout/events_toolbar"
+
+         />
+
     <TextView
+        android:id="@+id/EventsHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Events will be here"
+        android:fontFamily="@font/helvetica_neue_light"
+        android:text="Events"
         android:textSize="24dp"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/eventToolbar"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <ListView
+        android:id="@+id/eventList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_light_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EventsHeader"
+        app:layout_constraintVertical_bias="0.096"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/addEvent"
+        android:layout_width="44dp"
+        android:layout_height="38dp"
+        android:background="@drawable/white_button_shaper"
+        android:fontFamily="@font/helvetica_neue_light"
+        android:text="+"
+        android:textSize="24dp"
+        android:paddingHorizontal="5dp"
+        android:paddingBottom="7dp"
+        android:textStyle="bold"
+        android:onClick="createEvent()"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.014" />
+
+    <include
+        android:id="@+id/eventCreator"
+        layout="@layout/addevent_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

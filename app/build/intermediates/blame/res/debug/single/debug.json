@@ -48,6 +48,10 @@
         "source": "C:\\Users\\orhan\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\layout\\abc_cascading_menu_item_layout.xml"
     },
     {
+        "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_events_toolbar.xml.flat",
+        "source": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\src\\main\\res\\layout\\events_toolbar.xml"
+    },
+    {
         "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_action_bar_item_background_material.xml.flat",
         "source": "C:\\Users\\orhan\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     },
@@ -826,6 +830,10 @@
     {
         "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\font_helvetica_neue_light.ttf.flat",
         "source": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\src\\main\\res\\font\\helvetica_neue_light.ttf"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_addevent_layout.xml.flat",
+        "source": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\src\\main\\res\\layout\\addevent_layout.xml"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_layout_snackbar_include.xml.flat",
@@ -1878,6 +1886,10 @@
     {
         "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "C:\\Users\\orhan\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_white_button_shaper.xml.flat",
+        "source": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\src\\main\\res\\drawable\\white_button_shaper.xml"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",

@@ -67,13 +67,16 @@ public class NavScreen extends Fragment {
             @Override
             public void onClick(View v)
             {
-                destPointView.setVisibility(View.INVISIBLE);
-                srcPointView.setVisibility(View.INVISIBLE);
                 pin1.setVisibility(View.VISIBLE);
                 pin2.setVisibility(View.VISIBLE);
+
                 path0.setVisibility(View.VISIBLE);
                 path1.setVisibility(View.VISIBLE);
                 path2.setVisibility(View.VISIBLE);
+
+                destPointView.setVisibility(View.INVISIBLE);
+                srcPointView.setVisibility(View.INVISIBLE);
+
                 startNavButton.setVisibility(View.INVISIBLE);
             }
         });
