@@ -60,6 +60,8 @@ public class NavScreen extends Fragment {
         final ImageView path2 = view.findViewById(R.id.path2);
         path2.setVisibility(View.INVISIBLE);
 
+        final View pathChooser = view.findViewById(R.id.pathChooser);
+        pathChooser.setVisibility(View.VISIBLE);
 
         final Button startNavButton = view.findViewById(R.id.startNavigationButton);
         startNavButton.setOnClickListener(new View.OnClickListener()
@@ -74,8 +76,8 @@ public class NavScreen extends Fragment {
                 path1.setVisibility(View.VISIBLE);
                 path2.setVisibility(View.VISIBLE);
 
-                destPointView.setVisibility(View.INVISIBLE);
-                srcPointView.setVisibility(View.INVISIBLE);
+                pathChooser.setVisibility(View.INVISIBLE);
+
 
                 startNavButton.setVisibility(View.INVISIBLE);
             }

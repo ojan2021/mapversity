@@ -1552,6 +1552,10 @@
         "source": "C:\\Users\\orhan\\.gradle\\caches\\transforms-2\\files-2.1\\cb634fe4b4d1fdfcd5255e485d30a0c1\\material-1.0.0\\res\\drawable-mdpi-v4\\design_ic_visibility.png"
     },
     {
+        "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_path_chooser.xml.flat",
+        "source": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\src\\main\\res\\layout\\path_chooser.xml"
+    },
+    {
         "merged": "E:\\AndroidStudioProjects\\MapversityDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
         "source": "C:\\Users\\orhan\\.gradle\\caches\\transforms-2\\files-2.1\\291563c6708268cf4683b088770f2b39\\play-services-base-17.0.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },

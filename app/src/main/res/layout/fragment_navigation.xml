@@ -32,34 +32,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/path" />
 
-    <AutoCompleteTextView
-        android:id="@+id/SourcePointText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/cardview_light_background"
-        android:completionThreshold="1"
-        android:fontFamily="@font/helvetica_neue_light"
-        android:hint="Current Location"
-        android:elevation="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.086"
-        tools:layout_editor_absoluteX="16dp" />
-
-    <AutoCompleteTextView
-        android:id="@+id/DestinationPointText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/cardview_light_background"
-        android:completionThreshold="1"
-        android:fontFamily="@font/helvetica_neue_light"
-        android:hint="Destination"
-        android:elevation="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.143"
-        tools:layout_editor_absoluteX="0dp" />
-
     <Button
         android:id="@+id/startNavigationButton"
         android:layout_width="wrap_content"
@@ -137,4 +109,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.692"
         app:srcCompat="@drawable/path3" />
+
+    <include
+        android:id="@+id/pathChooser"
+        layout="@layout/path_chooser"
+        android:layout_width="410dp"
+        android:layout_height="95dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

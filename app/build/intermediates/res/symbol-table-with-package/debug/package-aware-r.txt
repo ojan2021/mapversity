@@ -1325,6 +1325,7 @@ id parent_matrix
 id path0
 id path1
 id path2
+id pathChooser
 id percent
 id pin
 id progress_circular
@@ -1507,6 +1508,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout path_chooser
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
